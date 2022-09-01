@@ -13,7 +13,6 @@ html{
 .container{
     width: 75%;
     margin: 0 auto;
-    /* text-align: center; */
 }
 
 h1{
@@ -23,12 +22,12 @@ h1{
 
 .col{
     background-color: rgb(15 14 23);
+    float:left;
     color: white;
     width: calc(100% / 3);
     display: inline-block;
     padding: 1em;
 }
-
 
 .col span {
     color:rgb(52 147 214) ;
@@ -38,8 +37,16 @@ h1{
     margin-bottom: 1em;
 }
 
+.mr{
+    margin-right: 1em;
+}
+
 .clearfix::before{
     content: "";
     clear: both;
     display: table;
+}
+
+.item > img {
+    width: 5em;
 }
