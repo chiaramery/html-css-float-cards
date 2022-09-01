@@ -47,7 +47,7 @@ h1{
     margin-right: 2em;
 }
 
-.clearfix::before{
+.clearfix::after{
     content: "";
     clear: both;
     display: table;
