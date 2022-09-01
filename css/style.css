@@ -30,9 +30,9 @@ h1{
     background-color: rgb(15 14 23);
     float:left;
     color: white;
-    width: calc(100% / 3 (- 1em));
+    width: calc(100% / 3 - 2em);
     display: inline-block;
-    padding: 1em;
+    /* padding: 1em; */
 }
 
 .col span {
@@ -44,7 +44,7 @@ h1{
 }
 
 .mr{
-    margin-right: 2em;
+    margin-right: 1em;
 }
 
 .clearfix::after{
@@ -53,6 +53,6 @@ h1{
     display: table;
 }
 
-.item > img {
+img {
     width: 5em;
 }
