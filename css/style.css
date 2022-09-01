@@ -32,7 +32,6 @@ h1{
     color: white;
     width: calc(100% / 3 - 2em);
     display: inline-block;
-    /* padding: 1em; */
 }
 
 .col span {
@@ -55,4 +54,10 @@ h1{
 
 img {
     width: 5em;
+    float: left;
+    margin-right: .8em;
+}
+.text{
+    font-size: 1rem;
+    padding: .6em;
 }
