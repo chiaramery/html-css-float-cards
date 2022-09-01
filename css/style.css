@@ -13,9 +13,33 @@ html{
 .container{
     width: 75%;
     margin: 0 auto;
+    /* text-align: center; */
 }
+
+h1{
+    color: rgb(225 47 113);
+    text-align: center;
+}
+
 .col{
     background-color: rgb(15 14 23);
     color: white;
-    border-color: 2px white;
+    width: calc(100% / 3);
+    display: inline-block;
+    padding: 1em;
+}
+
+
+.col span {
+    color:rgb(52 147 214) ;
+}
+
+.mb{
+    margin-bottom: 1em;
+}
+
+.clearfix::before{
+    content: "";
+    clear: both;
+    display: table;
 }
